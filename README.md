@@ -31,6 +31,8 @@
 6.USAGES
 
 *Hackathon
+This page provides an overview and details about the GirlCodeHack, an annual hackathon held in South Africa in celebration of Women's Month.
+It show cases past hackathon winners and allows a platform for users to apply for the current hackathon.
 
 *Programs
 
@@ -44,11 +46,19 @@ For-Companies  page is designed for organizations that might be interested in th
 
 *Contact-Us
 
+Contact Us page where users can find the organization's contacts if they have any inqueries and where potential partners can enquire about partnering up with the organization or donate.
+
 7.CONTACT INFORMATION
 
 *GitHub: https://github.com/jvn310/GirlCode-clone/tree/main
 
-8.CONCLUSION
+8.Fonts and Colors
+
+-Primary colour: #e94154
+
+-Primary Font: Inter, Roboto Slab, sans-serif;
+
+9.CONCLUSION
 
 *HTML: HyperText Markup Language, the standard language for creating web pages.
 *CSS: Cascading Style Sheets, used for styling HTML elements.
