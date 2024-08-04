@@ -129,7 +129,7 @@ header {
 
 /* hero */
 .hero-container {
-    background-image: url(images/Girlcode-Saturday-74-min-1.jpg);
+    background-image: url(../images/Girlcode-Saturday-74-min-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -435,11 +435,3 @@ margin-bottom: 30px;
     margin: 0px 30px;
     width: 55%;
 }
-
-/* h2 {
-    font-size: 20px;
-    color:black;
-    margin-bottom: 10px;
-} */
-
-
