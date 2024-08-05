@@ -31,6 +31,8 @@
 6.USAGES:
 
 *Hackathon
+This page provides an overview and details about the GirlCodeHack, an annual hackathon held in South Africa in celebration of Women's Month.
+It show cases past hackathon winners and allows a platform for users to apply for the current hackathon.
 
 *Programs
 
@@ -43,6 +45,8 @@ For-Companies  page is designed for organizations that might be interested in th
 *About-Us
 
 *Contact-Us
+
+Contact Us page where users can find the organization's contacts if they have any inqueries and where potential partners can enquire about partnering up with the organization or donate.
 
 7.CONTACT INFORMATION
 
