@@ -452,6 +452,14 @@ label {
         padding-left: 150px;
     }
 
+    .img-container .gray-background {
+        background-color: white;
+    }
+
+    .about-impact {
+        padding: 0;
+    }
+
 
     /*Contact Us Page*/
 
@@ -471,6 +479,10 @@ label {
 
     .headquaters {
         flex-wrap: wrap;
+    }
+
+    .img-container .gray-background {
+        background-color: white;
     }
 }
 
