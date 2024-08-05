@@ -6,127 +6,75 @@ body {
 }
 
 /* Navbar */
-header {
-    background-color: #fff;
-    border-bottom: 1px solid #ccc;
-}
-
-.navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.logo img {
-    max-height: 50px;
-    padding: 10px;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-links li {
-    margin: 0 15px;
-}
-
-.nav-links a {
-    color: black;
-    text-decoration: none;
+.navbar-nav a {
     font-weight: bold;
+    font-size: 17px;
 }
 
-.nav-links a:hover {
+.navbar-nav a:hover {
     color: #e94154;
 }
 
 /* Footer */
-.footer {
-    background-color: #e94154;;
-    color: white;
-    padding: 50px;
-}
-
-.footer-content {
+.footer-container {
+    background-color: rgb(233, 65, 84);
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
 }
 
-.footer-content .column-about {
-    width: 30%;
-    color: #fff;
+.footer-container .logo {
+    width: 200px;
 }
 
-.footer-content .column {
-    width: 16%;
-    padding-left: 20px;
+.footer-section {
+    margin: 0 10px;
 }
-
-
-.column h4 {
+  
+.footer-section h4 {
     margin-bottom: 10px;
+    font-size: 1rem;
+    padding-top: 20px;
+    font-weight: bold;
 }
-
-.column ul {
+  
+.footer-section ul {
     list-style: none;
-    padding: 0;
+    padding-left: 0;
 }
-
-.column ul li {
+  
+.footer-section li {
     margin-bottom: 5px;
 }
 
-.column ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.column ul li a:hover {
-    text-decoration: underline;
-}
-
-
-.social-media {
+.footer-section.links ul {
     display: flex;
-    align-items: center;
+    gap: 10px;
+}
+
+.footer-section.links li {
+    margin-bottom: 0;
+    font-size: 1rem; 
     padding-top: 20px;
 }
 
-.social-media i{
-    width: 30px;
-    border-radius: 5px;
-    color: #fff;
-}
+.footer-section.links li i {
+    color: white;
+}  
 
-.social-media a {
-    margin-right: 10px;
-    
-}
-
-.newsletter-button {
+.footer-section.links button {
+    color: #e94154;
     background-color: white;
-    color: #E63336;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-    width: 100%;
+    border: 1px solid white;
     font-weight: bold;
+    border-radius: 4px;
 }
 
-.newsletter-button:hover {
-    background-color: #f2f2f2;
-    color: #fff;
+.footer-section.links button:hover {
+    color: white;
 }
-
-
 /* hero */
 .hero-container {
     background-image: url(../images/Girlcode-Saturday-74-min-1.jpg);
