@@ -14,12 +14,15 @@ body {
 .navbar-nav a {
     font-weight: bold;
     font-size: 17px;
-    color: #e94154;
+
 }
 
 .navbar-nav a:hover {
     color: #e94154;
 }
+
+
+
 /* Navigation Bar end*/
 
 
