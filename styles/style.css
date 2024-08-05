@@ -159,8 +159,23 @@ body {
     width: 200px;
 }
 
+.footer-container .logo #footer-paragraph,
+.footer-container .logo #copywrite {
+    width: 300px;
+}
+
+.footer-container .logo #footer-logo {
+    padding-bottom: 20px;
+}
+
 .footer-section {
     margin: 0 10px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.footer-container .company {
+    padding-left: 80px;
 }
   
 .footer-section h4 {
@@ -429,6 +444,11 @@ label {
     .about-impact p {
         font-size: 0.8rem;
     }
+
+    .footer-container .company {
+        padding-left: 80px;
+    }
+
 
     /*Contact Us Page*/
 
