@@ -10,7 +10,7 @@
    Html,Css,JavaScript and bootstrap
  
  
- 5.FOLDER STRUCCTURE
+ 5.FOLDER STRUCCTURE:
 
     Girlcode-website/
     ├── hackathon.html
@@ -28,7 +28,7 @@
         └── hackathon.png
 
 
-6.USAGES
+6.USAGES:
 
 *Hackathon
 
@@ -48,9 +48,12 @@ For-Companies  page is designed for organizations that might be interested in th
 
 *GitHub: https://github.com/jvn310/GirlCode-clone/tree/main
 
-8.CONCLUSION
+8.CONCLUSION:
 
 *HTML: HyperText Markup Language, the standard language for creating web pages.
+
 *CSS: Cascading Style Sheets, used for styling HTML elements.
+
 *JavaScript: A programming language used to create interactive effects within web browsers.
+
 *Bootstrap: Is a popular front-end framework used for designing responsive and mobile-first websites and web applications. 
