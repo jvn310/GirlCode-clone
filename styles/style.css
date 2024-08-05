@@ -377,6 +377,10 @@ form p {
     border-top-right-radius: 4px;
 }
 
+label {
+    font-size: 0.8rem;
+}
+
 .button {
     background-color: rgba(237,237,237,255);
     height: 80px;
