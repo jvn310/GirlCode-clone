@@ -18,20 +18,14 @@ body {
 /* Footer */
 .footer-container {
     background-color: rgb(233, 65, 84);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
     color: white;
+    padding: 30px;
 }
 
-.footer-container .logo {
+.footer-container .footer-about img {
     width: 200px;
 }
 
-.footer-section {
-    margin: 0 10px;
-}
   
 .footer-section h4 {
     margin-bottom: 10px;
@@ -51,7 +45,6 @@ body {
 
 .footer-section.links ul {
     display: flex;
-    gap: 10px;
 }
 
 .footer-section.links li {
@@ -62,19 +55,22 @@ body {
 
 .footer-section.links li i {
     color: white;
+    margin-right: 20px;
 }  
 
-.footer-section.links button {
+.footer-btn {
     color: #e94154;
     background-color: white;
     border: 1px solid white;
     font-weight: bold;
+    padding: 8px 30px;
     border-radius: 4px;
 }
 
-.footer-section.links button:hover {
+.footer-btn:hover {
     color: white;
 }
+
 /* hero */
 .hero-container {
     background-image: url(../images/Girlcode-Saturday-74-min-1.jpg);
@@ -92,7 +88,6 @@ body {
 
 .hero-content{
     padding: 50px;
-    width: 50%;
     align-items: baseline;
 }
 
@@ -110,15 +105,15 @@ body {
 .partner-section {
     
     background-color: #ddd;
-    padding: 20px 0;
+    padding: 40px ;
     
 }
 
 .partner-cards-section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     gap: 20px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .section-title{
@@ -134,14 +129,14 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: calc(50% - 20px);
-    max-width: 500px;
     margin-bottom: 20px;
 }
 
 .partner-card img {
     width: 100%;
     height: 330px;
+    padding-left: -5px;
+    padding-right: -5px;
 }
 
 .partner-card h3 {
@@ -184,7 +179,6 @@ body {
 }
 
 .donors {
-    max-width: 800px;
     margin: 0 auto;
     text-align: left;
 
@@ -274,14 +268,15 @@ margin-bottom: 30px;
 
 
 .form-section {
-    width: 400px;
-    padding: 20px;
+    padding: 40px;
     margin-left: auto;
     margin-right: auto ;
+    display: flex;
+    justify-content: center;
 }
 
 
-.form-section section {
+.form-section-form {
     background-color: #e0e0e0;
     padding: 30px;
     text-align: center;
@@ -307,7 +302,6 @@ margin-bottom: 30px;
 .form-section label {
     margin: 10px 0 5px;
     width: 100%;
-    max-width: 400px;
     text-align: left;
 }
 
@@ -316,7 +310,6 @@ margin-bottom: 30px;
     border: 1px solid #ddd;
     border-radius: 5px;
     width: 100%;
-    max-width: 400px;
     margin-bottom: 10px;
 }
 
@@ -329,7 +322,6 @@ margin-bottom: 30px;
     cursor: pointer;
     border-radius: 5px;
     width: 100%;
-    max-width: 400px;
 }
 
 .form-section button:hover {
@@ -342,44 +334,34 @@ margin-bottom: 30px;
 
 .club-info-container {
     background-color: #ffc0cb;
-    padding: 40px 20px;
+    padding: 40px;
 
-}
-
-.club-info-content {
-    max-width: 800px;
-    margin: 0 auto;
-
-}
-
-.club-info-content img{
-    width: 20px;
 }
 
 .program-info-container {
-    max-width: 1200px;
+    /*max-width: 1200px;*/
     display: flex;
     justify-content: center;
     padding: 40px;
 }
 
-.table-container{
+/* .table-container{
     width: 35%;
-}
+} */
 
-.program-info-container .table {
-    margin: 20px;
+.table {
     border: 1px solid gray;
     border-radius: 5px;
+    padding-top: 20px;
 }
 
-.program-info-container .table p{
+.table p{
     text-align: left;
     padding: 0 20px;
     
 }
-
+/*
 .program-info-container .program-info-content {
-    margin: 0px 30px;
+    /* margin: 0px 30px; 
     width: 55%;
-}
+} */
