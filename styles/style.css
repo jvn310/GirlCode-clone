@@ -159,16 +159,16 @@ body {
 }
 
 .footer-container .logo {
-    width: 200px;
+    width: 150px;
 }
 
 .footer-container .logo #footer-paragraph,
 .footer-container .logo #copywrite {
-    width: 300px;
+    width: 400px;
 }
 
 .footer-container .logo #footer-logo {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .footer-section {
@@ -178,7 +178,7 @@ body {
 }
 
 .footer-container .company {
-    padding-left: 80px;
+    padding-left: 250px;
 }
   
 .footer-section h4 {
@@ -449,7 +449,15 @@ label {
     }
 
     .footer-container .company {
-        padding-left: 80px;
+        padding-left: 150px;
+    }
+
+    .img-container .gray-background {
+        background-color: white;
+    }
+
+    .about-impact {
+        padding: 0;
     }
 
 
@@ -472,5 +480,8 @@ label {
     .headquaters {
         flex-wrap: wrap;
     }
-}
 
+    .img-container .gray-background {
+        background-color: white;
+    }
+}
